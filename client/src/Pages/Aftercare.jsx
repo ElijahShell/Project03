@@ -21,7 +21,7 @@ export default function Aftercare() {
         </section>
 
         <img
-          src="./public/Tattoo_Cleaning.jpg"
+          src="/Tattoo_Cleaning.jpg"
           alt="Cleaning tattoo"
           className="image"
         />
@@ -36,7 +36,7 @@ export default function Aftercare() {
         </section>
 
         <img
-          src="./public/Tattoo_Healing.jpg"
+          src="/Tattoo_Healing.jpg"
           alt="Tattoo healing"
           className="image"
         />

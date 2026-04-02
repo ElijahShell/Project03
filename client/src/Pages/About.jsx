@@ -14,7 +14,7 @@ export default function About() {
         </p>
 
         <img
-          src="./public/Tattoo_Artist.jpg"
+          src="/Tattoo_Artist.jpg"
           alt="Tattoo artist working"
           className="about-image"
         />
