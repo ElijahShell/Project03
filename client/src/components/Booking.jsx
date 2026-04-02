@@ -11,7 +11,7 @@ export default function Booking() {
 
   // Fetch existing bookings
   useEffect(() => {
-    fetch("http://localhost:5000/bookings")
+    fetch("http://localhost:3000/bookings")
       .then(res => res.json())
       .then(data => setBookings(data))
       .catch(err => console.error("Error fetching bookings:", err));
@@ -23,7 +23,7 @@ export default function Booking() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:5000/bookings", {
+    fetch("http://localhost:3000/bookings", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData)
